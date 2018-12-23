@@ -1,0 +1,10 @@
+<div style="display: flex; flex-direction: column;" class="back">
+  <div style="display: flex;">
+    <input type="text" [(ngModel)]="textInput" />
+    <button (click)="clickSend()">send</button>
+  </div>
+  <span>{{ sendText }}</span>
+  <div style="display: flex;">
+    <span>Your input:</span><span>{{ textInput }}</span>
+  </div>
+</div>
