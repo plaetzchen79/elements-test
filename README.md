@@ -67,10 +67,18 @@ Example:
    sendMessageElement.addEventListener('send', ($event) => this.logSend($event));
    document.body.appendChild(sendMessageElement);
 ```
+## Export for other languages
+To use our custom element in other technologies (e.g. REACT) we have to create **one** single js file.
+
+0. In our componentent change css encapsulation to `encapsulation: ViewEncapsulation.Native`
+1. create an ng prod build with `ng build --prod --output-hashing false`
+2. bundle all output  * *.bundle.js* from the *dist* folder files to a single js-file
+3. Write a script and an npm command in package.json for steps 1 and 2
 
 ## Running unit tests
 Actually i do not care for testing here (shame on me).
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
+[Quick introduction video](https://www.youtube.com/watch?v=4u9_kdkvTsc)
 
