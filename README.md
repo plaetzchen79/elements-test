@@ -32,7 +32,7 @@ Using this:
 0. In tsconfig.json change target to `"target": "es2015",`
 
 1. Create a common Angular component
-2. Convert your new angular component to a custom-element with `createCustomElement()`  (in your *app.ts*)
+2. Convert your new Angular component to a custom-element with `createCustomElement()`  (in your *app.ts*)
 3. Register to the browsers CustomElement-Registry with js-function `customElements.define`
 4. Add component to entry components in *app.module*  `entryComponents: [SendMessageComponent],`
    Add schema the folowing schema: `schemas: [ CUSTOM_ELEMENTS_SCHEMA ]`
