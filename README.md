@@ -9,8 +9,9 @@ Have you ever dreamed of using Angular components in just every HTML-Page and ot
 REACT?
 That is what custom-elements are designed for.
 The custom-elemts standard ist supported by most modern browsers.
+
 From angular-io:
-`A custom-element behaves like any other HTML element, and does not require any special knowledge of Angular terms or usage conventions.`
+*A custom-element behaves like any other HTML element, and does not require any special knowledge of Angular terms or usage conventions.*
 Sounds great.
 
 Even if you stay in the Angular ecosystem, the creation of dynamic components gets much more easier with
@@ -42,7 +43,7 @@ Using this:
 Since we have no upper/lower case distinction in html inputs will be transformed
 to dash-separated lowercase.
 Example:
-textInput -> < text-input=''>
+`textInput -->   <  text-input=''>`
 
 *Events*
 Events will be tranformed to CustomEvents. Here we have upper/lower case.
@@ -53,7 +54,7 @@ HTML-Example:
 ```
 
 ### Dynamic creation
-1. To create a custom element just use *document.createElement*
+1. To create a custom element just use `document.createElement`
 2. To get properties and typings add `NgElement & WithProperties<MyComponent>`
 3. For Events add an event-listener with `addEventListener`
 4. Add new element to the DOM wirh `appendChild`
