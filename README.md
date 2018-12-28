@@ -7,19 +7,21 @@ It is a step by step guide.
 Angular Modules and Components are great when using in Angular Environments and the Angular ecosystem.
 Have you ever dreamed of using Angular components in just every HTML-Page and other environments like
 REACT?
+
 That is what custom-elements are designed for.
-The custom-elemts standard ist supported by most modern browsers.
+The custom-elements standard ist supported by most modern browsers.
 
 From angular-io:
 *A custom-element behaves like any other HTML element, and does not require any special knowledge of Angular terms or usage conventions.*
 Sounds great.
 
-Even if you stay in the Angular ecosystem, the creation of dynamic components gets much more easier with
+Even if you stay in the Angular ecosystem, the **creation of dynamic components** gets much more easier with
 Angular Elements. (Am i the only one not liking the ComponentFactory ? ;-))
 
 ### Solution
 Angular Elements is the key to transform Angular Components into standarized web-components.
-This means that the Angular Framework (and everything else needed) is bundled in on package.
+
+This means that the Angular Framework (and everything else needed) is bundled into one package.
 
 And with Angular we can transport every component into a custom-element with this function:
 `createCustomElement()`.
