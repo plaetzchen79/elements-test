@@ -5,6 +5,7 @@ It is a step by step guide.
 ## What is Angular Elements
 ### Problem
 Angular Modules and Components are great when using in Angular Environments and the Angular ecosystem.
+
 Have you ever dreamed of using Angular components in just every HTML-Page and other environments like
 REACT?
 
@@ -17,6 +18,10 @@ Sounds great.
 
 Even if you stay in the Angular ecosystem, the **creation of dynamic components** gets much more easier with
 Angular Elements. (Am i the only one not liking the ComponentFactory ? ;-))
+
+**Summary Benefits**
+- Angular independent
+- Easy dynamic component creation
 
 ### Solution
 Angular Elements is the key to transform Angular Components into standarized web-components.
